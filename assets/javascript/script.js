@@ -15,7 +15,6 @@ $(document).ready(function() {
     $(window).scroll(switchNav);
     $("body").backstretch("assets/img/hackathon_background.jpg");
     $(document).on("scroll", onScroll);
-    $(".section").click(loadPixelOnMouse);
   } else {
     $("#nav").addClass("active-mobile");
     $("#logo_white").hide();
@@ -31,7 +30,6 @@ $(document).ready(function() {
   $(".drake-me").click(function() {
     var target = $("#drake-here")[0];
     drakeMe(target);
-    $(".section").unbind("click", loadPixelOnMouse);
     $(".section").on("click", drakeOnMouse);
     everythingDrake();
   });
@@ -61,36 +59,7 @@ $(document).ready(function() {
 loadImg(".partner");
 loadImg(".sponsor");
 
-var pixels = ["ambulance.svg", "battery-half.svg", "chevron-left.svg",
-  "chevron-right.svg", "diamond.svg", "emoticon-confused.svg", "file-text.svg",
-  "food.svg", "hand.svg", "location.svg", "palette.svg", "question.svg",
-  "ruler-triangle.svg", "stats-down.svg", "tshirt.svg"];
-
-function randomPixel() {
-  var rand = Math.floor(Math.random() * pixels.length);
-  var path = "assets/img/pixel/" + pixels[rand];
-  var html = "<img class='pixel' src='" + path + "'>";
-  return $(html);
-}
-
-function loadPixels(num, container) {
-  var $container = $(container);
-  for (var i = 0; i < num; i++) {
-    var pixel = randomPixel();
-    $container.append(pixel);
-    return pixel;
-  }
-}
-
-function loadPixelOnMouse(e) {
-  var $container = $(this);
-  var offset = $container.offset();
-  var pixel = loadPixels(1, $container);
-  pixel.css({
-    left: e.pageX - offset.left,
-    top: e.pageY - offset.top
-  });
-}
+var pixels = [];
 
 function loadDrake() {
   var path = "assets/img/drake.png";

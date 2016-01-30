@@ -23,7 +23,7 @@ html {
   box-sizing: inherit;
 }
 
-a {
+#sponsor a, #footer a {
   text-decoration: none;
   border-bottom: 2px solid rgba(245, 166, 35, 0.72);
   color: inherit;
@@ -31,7 +31,7 @@ a {
   transition: 0.3s ease;
 }
 
-#about a:hover, #FAQ a:hover, #sponsor a:hover, #footer a:hover {
+#FAQ a:hover, #sponsor a:hover, #footer a:hover {
   background-color: rgba(245, 166, 35, 1);
   color: white
 }
@@ -405,6 +405,13 @@ a {
   background-color: white;
 }
 
+.cohost {
+  height: 60px;
+  margin: 25px 15px;
+  opacity: 0.6;
+}
+
+
 #hackathon_tablet {
   position: absolute;
   right: -5%;
@@ -478,7 +485,7 @@ a {
 
 #apply {
   height: 600px;
-  background-color: #6FCBDC;
+  background-color: #bf9bde;
 }
 
 .desktop-img {
@@ -546,11 +553,6 @@ a {
   opacity: 0.6;
 }
 
-.cohost {
-  height: 60px;
-  margin: 25px 15px;
-  opacity: 0.6;
-}
 
 .sponsor.title {
   height: 50px;
@@ -608,6 +610,44 @@ a {
 }
 
 /* footer */
+
+#partner.section {
+  background-color: #F0F0F0;
+  color: #8F9CB3;
+  padding: 80px 60px;
+}
+
+#partner .section-body p {
+  text-align: center;
+  color: inherit;
+  line-height: 2.5;
+  font-size: 20px
+}
+
+#partners-container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.partner {
+  height: 35px;
+  margin: 25px 15px;
+  opacity: 0.6;
+  margin-top: 20px
+}
+
+.partner.title {
+  height: 100px;
+  display: block;
+  margin: 15px auto 20px auto
+}
+
+.partner:hover {
+  opacity: 1;
+  -webkit-filter: none;
+}
+
 
 #footer.section {
   background-color: #3E3E3E;
