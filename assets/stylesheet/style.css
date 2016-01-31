@@ -378,15 +378,17 @@ html {
   text-align: center;
   line-height: 1.52;
   text-transform: uppercase;
-  color: rgb(216, 152, 37);
+  color: white;
 }
 
 .sub-headline.mini {
-  font-size: 16px;
-  text-transform: none;
-  opacity: 0.72;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.52;
+  text-transform: uppercase;
   color: white;
-  margin-top: 15px
+  padding: 50px 0px 50px 50px;
 }
 
 
@@ -510,6 +512,7 @@ html {
 .apply-header {
   color: white;
   font-size: 28px;
+  font-weight: bold;
   line-height: 1.5;
   margin-bottom: 15px
 }
@@ -813,6 +816,7 @@ html {
   .sub-headline {
     font-size: 16px;
     font-weight: bold;
+    padding: 20px 0px 20px;
   }
 
   /* fake selector for higher specificity */
