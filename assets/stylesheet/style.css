@@ -211,10 +211,10 @@ html {
 }
 
 .slant {
-  width: 120%;
+  width: 100%; /*120%;*/
   height: 90px;
   position: absolute;
-  left: -20px;
+  left: 0px; /* -20px;*/
   background: inherit;
   z-index: 1;
 }
@@ -280,6 +280,10 @@ html {
   margin-bottom: 10px
 }
 
+#nav.active a {
+  color: rgb(255, 188, 108);
+}
+
 #nav-close {
   display: none;
 }
@@ -312,11 +316,12 @@ html {
   text-decoration: none;
   border: none;
   padding: 0;
+  color: rgb(255, 255, 255);
 }
 
 .nav-section a:hover, .button a:hover, #social a:hover {
   background-color: initial;
-  color: inherit;
+  color: rgb(255, 255, 255);
 }
 
 .nav-section.active {
@@ -407,12 +412,40 @@ html {
   background-color: white;
 }
 
+.cohost-title {
+  margin-top: 50px;
+}
+
 .cohost {
-  height: 60px;
-  margin: 25px 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+  display: inline-block;
   opacity: 0.6;
 }
 
+.cohost:hover {
+  opacity: 1.0;
+}
+
+.cohost.blueprint-logo {
+  background-image: url("../img/cohosts/blueprint.png");
+}
+
+.cohost.calhacks-logo {
+  background-image: url("../img/cohosts/calhacks.png");
+}
+
+.cohost.cs4good-logo {
+  background-image: url("../img/cohosts/cssocialgood.png");
+}
+
+.cohost.treehacks-logo {
+  background-image: url("../img/cohosts/treehacks.svg");
+}
 
 #hackathon_tablet {
   position: absolute;
@@ -519,7 +552,8 @@ html {
 
 .button.apply {
   padding: 12px 25px;
-  font-size: 24px
+  font-size: 24px;
+  text-decoration: none;
 }
 
 /* sponsor */
@@ -555,7 +589,6 @@ html {
   margin: 25px 15px;
   opacity: 0.6;
 }
-
 
 .sponsor.title {
   height: 50px;
