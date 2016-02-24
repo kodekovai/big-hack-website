@@ -1,5 +1,5 @@
 # website2
-Cal Hacks 2 website. Written in vanilla HTML, CSS, and JavaScript.
+Big Hack website. Written in vanilla HTML, CSS, and JavaScript.
 
 # Credits
 **Developers:**
