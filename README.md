@@ -1,5 +1,5 @@
 # website2
-Big Hack website, very heavily based on the Cal Hacks 2.0 website. Written in vanilla HTML, CSS, and JavaScript.
+Cal Hacks 2 website. Written in vanilla HTML, CSS, and JavaScript.
 
 # Credits
 **Developers:**
