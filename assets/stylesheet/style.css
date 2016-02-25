@@ -604,12 +604,12 @@ html {
   height: 80px;
 }
 
-#sponsor a.sponsor-link {
+#sponsor a.slink {
   border: none;
   padding: 0;
 }
 
-#sponsor a.sponsor-link:hover {
+#sponsor a.slink:hover {
   background-color: inherit;;
 }
 
