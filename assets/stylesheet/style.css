@@ -591,7 +591,7 @@ html {
 }
 
 .sponsor.title {
-  height: 50px;
+  height: 70px;
   display: block;
   margin: 25px auto 35px auto;
 }
@@ -601,7 +601,16 @@ html {
 }
 
 .sponsor-too-small {
-  height: 40px;
+  height: 80px;
+}
+
+#sponsor a.sponsor-link {
+  border: none;
+  padding: 0;
+}
+
+#sponsor a.sponsor-link:hover {
+  background-color: inherit;;
 }
 
 .partner {
