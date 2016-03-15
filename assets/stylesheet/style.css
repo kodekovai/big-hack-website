@@ -333,11 +333,12 @@ html {
 
 #landing {
   width: 100%;
-  padding-bottom: 70.7%;
+  height: 700px;
   position: relative;
   /*padding: 200px 60px 0px 60px;*/
-  background-image: url("../img/bighack_illustration.svg");
+  background-image: url("../img/illy.png");
   background-size: cover;
+  background-position: bottom;
 }
 
 #landing-filter-hashtag-instagram-hashtag-besties-for-life-hashtag-no-filter-hashtag-slide-into-my-dms {
@@ -711,6 +712,31 @@ html {
   font-size: 12px;
 }
 
+#about {
+  padding-bottom: 60px !important;
+}
+
+#about .section-wrapper {
+  margin-top: 25px;
+}
+
+#about h1 {
+  padding-bottom: 20px;
+}
+
+#about p {
+  text-align: center;
+}
+
+#apply .sub-headline {
+  padding-bottom: 20px;
+  opacity: 0.8;
+}
+
+#apply {
+  height: 670px;
+}
+
 /* responsive */
 
 /* ipad */
@@ -923,7 +949,10 @@ html {
 
   /*landing*/
   #landing {
-    background-image: url("../img/hackathon_background.jpg");
+    height: 350px;
+    padding: 0;
+    background-image: url("../img/illy-mobile.png");
+    background-size: cover;
   }
 
   /* apply */
