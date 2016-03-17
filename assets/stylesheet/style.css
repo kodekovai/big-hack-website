@@ -264,7 +264,7 @@ html {
 
 #nav.active .nav-section {
   color: #F5A623;
-  padding-bottom: 15px;
+  padding-bottom: 14px;
   opacity: 0.72
 }
 
@@ -577,7 +577,7 @@ html {
 
 .schedule-column {
   display: inline-block;
-  width: 300px;
+  width: 320px;
   vertical-align: top;
 }
 
