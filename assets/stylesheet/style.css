@@ -635,9 +635,7 @@ html {
 }
 
 .sponsor.smaller {
-  height: 50px;
-  display: block;
-  margin: 10px auto;
+  height: 40px;
 }
 
 .sponsor-too-big {
@@ -655,6 +653,11 @@ html {
 
 #sponsor a.slink:hover {
   background-color: inherit;;
+}
+
+.spacer {
+  display: block;
+  height: 15px;
 }
 
 .partner {
