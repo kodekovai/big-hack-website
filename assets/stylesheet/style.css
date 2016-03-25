@@ -634,6 +634,12 @@ html {
   margin: 25px auto 35px auto;
 }
 
+.sponsor.smaller {
+  height: 50px;
+  display: block;
+  margin: 10px auto;
+}
+
 .sponsor-too-big {
   height: 30px;
 }
