@@ -558,6 +558,46 @@ html {
   text-decoration: none;
 }
 
+/* judges */
+#judges {
+  background-color: white;
+}
+
+.judges-container {
+  text-align: center;
+  padding: 50px 10px 10px;
+}
+
+.judge-container {
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 240px;
+  height: 280px;
+}
+
+.judge-image {
+  height: 180px;
+  width: 180px;
+  border-radius: 90px;
+  margin: 0 auto;
+  display: block;
+}
+
+.judge-name {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.judge-title {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
 /* schedule */
 
 #schedule {
