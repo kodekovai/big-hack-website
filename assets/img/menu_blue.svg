@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg2"
+   version="1.1"
+   viewBox="0 0 29 25"
+   height="25px"
+   width="29px">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>noun_51720_cc</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">noun_51720_cc</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8" />
+  <g
+     sketch:type="MSPage"
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="1"
+     stroke="none"
+     id="Welcome">
+    <g
+       fill="#FFFFFF"
+       transform="translate(-710.000000, -60.000000)"
+       sketch:type="MSArtboardGroup"
+       id="Desktop-HD-Copy-8">
+      <g
+         style="fill:#429cff;fill-opacity:1"
+         transform="translate(710.500000, 59.833333)"
+         sketch:type="MSLayerGroup"
+         id="noun_51720_cc">
+        <path
+           style="fill:#429cff;fill-opacity:1"
+           sketch:type="MSShapeGroup"
+           id="Shape"
+           d="M28,5.43628186 L2.4137931,5.43628186 L0,3.02248876 L2.4137931,0.608695652 L28,0.608695652 L28,5.43628186 Z" />
+        <path
+           style="fill:#429cff;fill-opacity:1"
+           sketch:type="MSShapeGroup"
+           id="path14"
+           d="M28,15.0914543 L2.89655172,15.0914543 L0,12.6776612 L2.89655172,10.2638681 L28,10.2638681 L28,15.0914543 Z" />
+        <path
+           style="fill:#429cff;fill-opacity:1"
+           sketch:type="MSShapeGroup"
+           id="path16"
+           d="M28,24.7466267 L2.89655172,24.7466267 L0,22.3328336 L2.89655172,19.9190405 L28,19.9190405 L28,24.7466267 Z" />
+      </g>
+    </g>
+  </g>
+</svg>
