@@ -31,7 +31,7 @@ html {
   transition: 0.3s ease;
 }
 
-#FAQ a:hover, #sponsor a:hover, #footer a:hover {
+#FAQ a:hover, #sponsor a:hover {
   background-color: rgba(245, 166, 35, 1);
   color: white
 }
@@ -495,8 +495,9 @@ html {
 /* FAQ */
 
 #FAQ {
-  background-color: #F8BF61;
-  color: white
+  /*background-color: #F8BF61;*/
+  background-color: #F0F0F0;
+  /*color: white*/
 }
 
 #FAQ .section-body {
