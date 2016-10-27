@@ -536,9 +536,9 @@ html {
   font-weight: 400;
 }
 
-/* apply */
+/* duration */
 
-#apply {
+#duration {
   height: 600px;
   background-color: #1976D2;
 }
@@ -553,9 +553,41 @@ html {
   right: 0
 }
 
-.apply-container {
+.duration-container {
   width: 100%;
   max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 150px;
+  position: relative;
+}
+
+.duration-header {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 15px
+}
+
+.button.duration {
+  padding: 12px 25px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+
+/* apply */
+
+#apply {
+  height: 1500px;
+  background-color: #1976D2;
+}
+
+
+.apply-container {
+  width: 100%;
+/*  max-width: 400px;*/
   text-align: center;
   margin: 0 auto;
   margin-top: 150px;
@@ -575,6 +607,7 @@ html {
   font-size: 24px;
   text-decoration: none;
 }
+
 
 /* judges */
 #judges {
@@ -872,14 +905,14 @@ html {
   text-align: center;
 }
 
-#apply .sub-headline {
+/*#apply .sub-headline {
   padding-bottom: 20px;
   opacity: 0.8;
 }
 
 #apply {
   height: 670px;
-}
+}*/
 
 /* responsive */
 
